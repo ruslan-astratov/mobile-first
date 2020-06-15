@@ -36,7 +36,7 @@ p {
   }
 }
 .news-item {
-  float: left;
+  
   width: 290px;
   margin-bottom: 40px;
   margin-right: 0;
@@ -49,6 +49,7 @@ p {
 }
 @media (min-width: 780px) {
   .news-item {
+    float: left;
     width: 360px;
     margin-bottom: 40px;
   }
