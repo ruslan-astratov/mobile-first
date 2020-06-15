@@ -64,6 +64,7 @@ p {
 }
 @media (min-width: 1160px) {
   .news-item {
+    margin-bottom: 0;
     margin-right: 30px;
     width: 260px;
   }
