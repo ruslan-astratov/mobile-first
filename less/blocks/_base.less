@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+  margin: 0;
+}
+
+h3,
+p {
+  margin: 0;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.section-example {
+  height: 150px;
+  background-color: #eaeaea;
+}
+
+.container {
+  width: 320px;
+  padding: 0 15px;
+  margin: 0 auto;
+
+  @media (min-width: 780px) {
+    width: 780px;
+  }
+
+  @media (min-width: 1160px) {
+    width: 1160px;
+  }
+}
